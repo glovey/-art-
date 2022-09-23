@@ -1,0 +1,40 @@
+[[package]]
+name = "colorgram.py"
+version = "1.2.0"
+description = "A Python module for extracting colors from images. Get a palette of any picture!"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pillow = ">=3.3.1"
+
+[[package]]
+name = "heroes"
+version = "1.0.2"
+description = "Get Awesome Random Heroes names!"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pillow"
+version = "9.2.0"
+description = "Python Imaging Library (Fork)"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-issues (>=3.0.1)", "sphinx-removed-in", "sphinxext-opengraph"]
+tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "a5f6da50953db6012ee3020790063181aceea83e9403f126cf927fb01770dd67"
+
+[metadata.files]
+"colorgram.py" = []
+heroes = []
+pillow = []
